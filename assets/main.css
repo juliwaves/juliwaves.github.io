@@ -1,0 +1,63 @@
+body{
+  font-family: 'Fira-Sans', sans-serif;
+}
+
+header{
+  width:90%;
+  margin:auto;
+}
+
+.nav-container{
+  width:90%;
+  height:60px;
+  position: fixed;
+  z-index: 100;
+
+}
+
+#page-nav{
+  display: flex;
+  flex-direction: row;
+  float:right;
+  padding-right:20px;
+}
+
+.nav-link{
+  padding-right: 15px;
+}
+
+.intro-bio{
+  display:flex;
+  flex-direction: row;
+  padding-left: 20px;
+}
+
+.intro-image {
+  height: 200px;
+  width: 200px;
+}
+
+.intro-text{
+  width:40%;
+  padding-left: 20px;
+}
+
+.work-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  width:90%;
+  margin:auto;
+}
+
+.item {
+  width: 400px;
+  padding: 20px;
+}
+
+.item img{
+    object-fit: cover;
+    width: 50vh;
+    height: 50vh;
+    max-height:400px;
+}
