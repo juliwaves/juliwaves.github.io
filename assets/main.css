@@ -5,29 +5,31 @@ body{
 }
 
 header{
-  width:90%;
+  width:100vw;
   margin:auto;
 }
 
 .nav-container{
-  width:90%;
-  height:60px;
+  width:90vw;
+  margin:auto;
+  padding-left: 20px;
+  height:100px;
   position: fixed;
   z-index: 100;
   background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 #page-nav{
   display: flex;
   flex-direction: row;
-  float:right;
-  padding-right:20px;
 }
 
 #name{
   display: flex;
   flex-direction: row;
-  float:left;
   padding-left:20px;
   font-family: 'Fira-Sans', sans-serif;
 }
@@ -37,10 +39,12 @@ header{
 }
 
 .intro-bio{
-  padding-top:60px;
+  padding-top:100px;
   display:flex;
   flex-direction: row;
-  padding-left: 20px;
+  width:90vw;
+  margin:auto;
+  margin-bottom:20px;
 }
 
 .intro-image {
@@ -49,7 +53,7 @@ header{
 }
 
 .intro-text{
-  width:40%;
+  width:20vw;
   padding-left: 20px;
 }
 
@@ -57,18 +61,16 @@ header{
   display: flex;
   flex-direction: row;
   flex-wrap:wrap;
-  width:90%;
+  width:90vw;
   margin:auto;
 }
 
 .item {
-  width: 400px;
-  padding: 20px;
+  width:30%;
 }
 
 .item img{
     object-fit: cover;
-    width: 50vh;
-    height: 50vh;
-    max-height:400px;
+    height:65%;
+    width:80%;
 }
