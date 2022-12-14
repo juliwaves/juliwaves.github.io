@@ -6,12 +6,12 @@ body{
 
 
 header{
-  width:90vw;
+  width:80vw;
   margin:auto;
 }
 
 .nav-container{
-  width:90vw;
+  width:80vw;
   margin:auto;
   padding-left: 20px;
   height:100px;
@@ -64,7 +64,7 @@ header{
   flex-wrap:wrap;
   align-items: center;
   justify-content: space-between;
-  width:90vw;
+  width:80vw;
   margin:auto;
 }
 
@@ -78,4 +78,8 @@ header{
     object-fit: cover;
     height:65%;
     width:100%;
+}
+
+.item-caption p{
+  color: #7C7C7C;
 }
