@@ -31,13 +31,13 @@ a:hover{
 .nav-container a{
   display: flex;
   flex-direction: row;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 #page-nav{
   display: grid;
   grid-template-columns: repeat(4, min-content);
-  grid-gap: 57px;
+  grid-gap: 54px;
 }
 
 #page-nav a{
