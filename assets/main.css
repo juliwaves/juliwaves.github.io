@@ -1,11 +1,12 @@
 
 body{
-  font-family: 'Fira-Sans', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   margin: 0px;
 }
 
+
 header{
-  width:100vw;
+  width:90vw;
   margin:auto;
 }
 
@@ -31,7 +32,8 @@ header{
   display: flex;
   flex-direction: row;
   padding-left:20px;
-  font-family: 'Fira-Sans', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 700;
 }
 
 .nav-link{
@@ -42,8 +44,7 @@ header{
   padding-top:100px;
   display:flex;
   flex-direction: row;
-  width:90vw;
-  margin:auto;
+
   margin-bottom:20px;
 }
 
@@ -53,24 +54,28 @@ header{
 }
 
 .intro-text{
-  width:20vw;
-  padding-left: 20px;
+  width:23vw;
+  padding-left: 40px;
 }
 
 .work-container {
   display: flex;
   flex-direction: row;
   flex-wrap:wrap;
+  align-items: center;
+  justify-content: space-between;
   width:90vw;
   margin:auto;
 }
 
 .item {
   width:30%;
+  margin:auto;
+  margin-left:0px;
 }
 
 .item img{
     object-fit: cover;
     height:65%;
-    width:80%;
+    width:100%;
 }
