@@ -16,6 +16,10 @@ a:hover{
   color:#FD6C01;
 }
 
+mark{
+  background-color: #e7e7f4;
+}
+
 .nav-container{
   width:80vw;
   margin:auto;
@@ -40,7 +44,14 @@ a:hover{
   grid-gap: 54px;
 }
 
-#page-nav a{
+.active{
+  text-decoration: underline;
+  color:#FD6C01;
+  transition: .8s;
+  font-size: 1.17em;
+}
+
+.inactive{
   color: black;
   text-decoration: none;
   transition: .8s;
@@ -73,9 +84,9 @@ a:hover{
 }
 
 .intro-text{
-  width:23vw;
+  width:390px;
   padding-left: 40px;
-
+  max-height: 180px;
 }
 
 .work-container {
@@ -94,6 +105,7 @@ a:hover{
   margin:auto;
   margin-left:0px;
   padding-bottom: 10px;
+  margin-top:0px;
 
 }
 
@@ -101,6 +113,23 @@ a:hover{
     object-fit: cover;
     height:65%;
     width:100%;
+
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .item {
+    width:100%;
+  }
+
+  #page-nav{
+    grid-gap: 20px;
+  }
+
+  .intro-text{
+    width:100vw;
+    padding-left: 28px;
+  }
 }
 
 
