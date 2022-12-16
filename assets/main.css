@@ -121,6 +121,11 @@ mark{
   border-radius:20px;
 }
 
+.item:hover img {
+  opacity: 0.5;
+}
+
+
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   .item {
