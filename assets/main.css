@@ -46,7 +46,7 @@ mark{
 
 .active{
   text-decoration: underline;
-  color:#FD6C01;
+  color: black;
   transition: .8s;
   font-size: 1.17em;
 }
@@ -75,12 +75,13 @@ mark{
   display:flex;
   flex-direction: row;
 
-  margin-bottom:40px;
+  margin-bottom:30px;
 }
 
 .intro-image {
   height: 180px;
   width: 180px;
+  border-radius: 12px;
 }
 
 .intro-text{
