@@ -114,15 +114,13 @@ mark{
     height:65%;
     width:100%;
     transition: .8s;
+    opacity: 0.9;
 
 }
 
 .item img:hover{
   border-radius:20px;
-}
-
-.item:hover img {
-  opacity: 0.5;
+  opacity: 1;
 }
 
 

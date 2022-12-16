@@ -1,0 +1,35 @@
+
+.about-image{
+  height: auto;
+  width:25vw;
+}
+
+.about{
+  display: flex;
+  flex-direction: row;
+  padding-top:100px;
+  align-items: top;
+  width:80vw;
+  margin:auto;
+  }
+
+.about-text-container{
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 600px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .about{
+    flex-direction:column;
+  }
+  .about-image{
+    width:100%;
+  }
+  .about-text-container{
+    margin-left:0px;
+  }
+}
