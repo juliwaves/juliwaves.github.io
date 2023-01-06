@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    padding:0px;
+    margin:0px;
+}
+
+#container{
+    width: 100%;
+    max-width:1800px;
+    margin:auto;
+}
+
+.image-gallery{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 100px;
+    row-gap:1.5rem;
+    column-gap:1.5rem;
+    margin-bottom:50px;
+}
+
+.image-gallery img{
+    max-width: 360px;
+    height:auto;
+    object-fit: cover;
+    transition:.8s;
+}
+
+.image-gallery img:hover{
+    border-radius:20px;
+}
