@@ -1,8 +1,4 @@
-*{
-    box-sizing: border-box;
-    padding:0px;
-    margin:0px;
-}
+
 
 #container{
     width: 100%;
@@ -12,21 +8,24 @@
 
 .image-gallery{
 
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
     justify-content: center;
     padding-top: 100px;
     row-gap:1.5rem;
     column-gap:1.5rem;
     margin-bottom:50px;
+    width:100%;
 
-    align-items: center;
+    
     
 }
 
+
+
 .image-gallery img{
-    max-width: 360px;
-    height:auto;
+    width: 500px;
+    height: 500px;
     object-fit: cover;
     transition:.8s;
 }

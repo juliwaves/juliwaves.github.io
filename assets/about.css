@@ -13,6 +13,7 @@
   align-items: top;
   width:80vw;
   margin:auto;
+  max-width:1800px;
   }
 
 .about-text-container{
@@ -69,6 +70,7 @@
   }
   .about-image{
     width:100%;
+    margin-bottom:8px;
   }
   .about-contact{
     width:100%;
@@ -76,5 +78,6 @@
   }
   .about-text-container{
     margin-left:0px;
+    margin-bottom:50px;
   }
 }
