@@ -1,29 +1,34 @@
 <!doctype html>
 <html>
    <head>
-     <title> julia shen </title>
+     <title> julia shen - about </title>
      <meta name="viewport" content="width=device-width, initial-scale=1">
 <!--meta descriptions-->
     <meta name="robots" content="index, follow" />
     <meta name="description"
       content="Julia Shen's personal website." />
     <meta name="keywords"
-      content="portfolio site, writing, writing portfolio, personal website, copywriting" />
+       content="portfolio site, writing, writing portfolio, personal website, copywriting, julia shen, juliwaves" />
     <link rel="icon" href="assets\img\icon.ico" />
 <!-- import css and javascript -->
      <link rel="stylesheet" href="assets\main.css">
      <link rel="stylesheet" href="assets\about.css">
-     <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
-     <script src="/script.js" defer></script>
 
+     <link rel="stylesheet" href="assets\photo.css">
+     <link rel="stylesheet" href="assets\lightbox.min.css">
+
+     <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+
+     <script defer src="node_modules\swup\dist\swup.min.js"></script>
+     <script defer src="script.js"></script>
 
    </head>
 
    <body>
      <div class="content"> <!--all body content-->
        <header> <!--intro section-->
-         <div class="nav-box">
-        <nav class="nav-container">
+        <div class="nav-box">
+         <nav class="nav-container">
            <div id="name">
              <a href="index.html">julia shen</a>
            </div>
@@ -44,9 +49,10 @@
              <a class = "inactive" href="photos.html">photos</a>
              </div>
            </nav>
-          </div> 
+          </div>
           </header>
           <!--end intro section-->
+          <main id="swup" class="transition-fade">
           <!--begin about section-->
           <div class = "about">
           <!--image section-->
@@ -104,11 +110,10 @@
 
           
             </div>
-
+          </main>
             
           <!--end about section-->
-          
+          </div>
 
-            </div>
    </body>
 </html>

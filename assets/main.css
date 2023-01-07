@@ -1,17 +1,28 @@
+.transition-fade{
+  opacity: 1;
+  transition: 500ms;
+
+}
+
+html.is-animating .transition-fade{
+  opacity: 0;
+
+}
 
 body{
   font-family: 'Fira Sans', sans-serif;
   margin: 0px;
   overflow-x: hidden;
   background-color: #FFFBF6;
+  background:#FFFBF6;
+
 }
+
 
 header{
   width:80vw;
   margin:auto;
 }
-
-
 
 a{
   transition: .5s;
@@ -112,7 +123,9 @@ header{
   padding-top:100px;
   display:flex;
   flex-direction: row;
-
+  width:80vw;
+  max-width:1800px;
+  margin:auto;
   margin-bottom:30px;
 }
 
