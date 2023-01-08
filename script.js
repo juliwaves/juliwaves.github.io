@@ -1,1 +1,1 @@
-const swup = new Swup(options);
+const swup = new Swup();
