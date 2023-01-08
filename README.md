@@ -1,4 +1,4 @@
-# website-2022
+# julisite 🌊
  
 hi! this is my personal website :) 
 
