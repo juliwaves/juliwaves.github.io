@@ -1,3 +1,4 @@
+/*swup transitions*/
 .transition-fade{
   opacity: 1;
   transition: 500ms;
@@ -8,12 +9,35 @@ html.is-animating .transition-fade{
   opacity: 0;
 
 }
+/*end swup transitions*/
+
+/*scrollbar styling*/
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e6e2dd; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #7C7C7C; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #666666; 
+}
+
+/*end scrollbar styling*/
 
 body{
   font-family: 'Fira Sans', sans-serif;
   margin: 0px;
   overflow-x: hidden;
-  background-color: #FFFBF6;
   background:#FFFBF6;
 
 }
@@ -178,6 +202,56 @@ header{
   opacity: 1;
 }
 
+.item-caption p{
+  color: #7C7C7C;
+}
+
+/*footer css*/
+footer{
+  position:fixed;
+  bottom:0px;
+  right:0px;
+}
+
+footer img{
+  padding-bottom:5px;
+  padding-right:10px;
+}
+
+
+/*tooltip css*/
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: auto;
+  background-color: #7C7C7C;
+  color: #fff;
+  text-align: center;
+  border-radius: 8px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 25%;
+  left: 50%;
+  margin-left: -130px;
+  width: 120px;
+
+  font-size: 10px;
+  font-weight: 100;
+
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
@@ -201,11 +275,14 @@ header{
   #name-logo{
     display:block;
   }
+
+  .tooltip{
+    display:none;
+  }
+
+  }
+
 }
 
-
-.item-caption p{
-  color: #7C7C7C;
-}
 
 
