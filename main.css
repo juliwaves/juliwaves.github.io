@@ -41,7 +41,7 @@ img{
 }
 
 .gallery img{
-    max-width: 80px;
+    max-width: 140px;
     margin:auto;
     border: 2px;
     border-style: solid;
