@@ -69,6 +69,7 @@ img{
     padding:0;
 
    .gallery{
+    max-width:100%;
     flex-wrap:wrap;
    }
 }
