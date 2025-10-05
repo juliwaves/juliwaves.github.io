@@ -41,22 +41,23 @@ img{
 }
 
 .gallery img{
-    max-width: 140px;
-    margin:auto;
     border: 2px;
     border-style: solid;
-    border-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 255);
+    width: 140px;
     
 }
 
 .gallery{
-    background-color: rgb(63, 84, 68);
-    width: fit-content;
-    padding:10px;
     display:flex;
     flex-direction: row;
-    column-gap: 10px;
+    flex-wrap: wrap;
+    width:fit-content;
     row-gap:10px;
+    column-gap:10px;
+    padding:10px;
+    justify-content: flex-start;
+
 }
 
 .content{
@@ -68,10 +69,10 @@ img{
   .content{
     width: 90%;
     padding:0;
+}
 
-   .gallery{
-    max-width:100%;
-    flex-wrap:wrap;
-   }
+.gallery{
+    justify-content: center;
+
 }
 }
